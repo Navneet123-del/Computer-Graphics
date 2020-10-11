@@ -77,7 +77,7 @@
     		
     		
     		mcircle(100 + (i++), 200, 100);
-    		delay(90000);
+    		delay(900000);
     		
         closegraph();
     	
