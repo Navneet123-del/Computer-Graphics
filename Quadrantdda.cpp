@@ -30,7 +30,7 @@ void DDA(int X0, int Y0, int X1, int Y1)
 		putpixel (X,Y,WHITE); // put pixel at (X,Y)
 		X += Xinc;		 // increment in x at each step
 		Y += Yinc;		 // increment in y at each step
-		delay(10);		 // for visualization of line-
+		delay(100);		 // for visualization of line-
 							// generation step by step
 	}
 }
@@ -53,7 +53,7 @@ int main(){
   float slp=float((Y1-Y0))/float((X1-X0));
   printf("%s %f","Slope:", slp);
 
-  delay(50000);
+  delay(500000);
 
   
   closegraph();
